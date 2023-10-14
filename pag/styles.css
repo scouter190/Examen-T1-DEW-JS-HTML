@@ -1,0 +1,108 @@
+body{
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px;
+    background-color: #444444;
+}
+
+header{
+    display: flex;
+    height: 75px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.datos { 
+    display: flex;
+}
+
+#fecha{
+    padding-right: 40px;
+}
+.datos h3{
+    color:white;
+}
+
+#imagen-carrusel {  
+    width: 100%; /*Ajusta el tamaño de la imagen según tus necesidades */
+    height: 400px; 
+    transition: opacity 0.5s; /*Agrega un efecto de transición de desvanecimiento */
+} 
+
+.nuestro-menu {
+    text-align: center;
+}
+
+.menu { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+.menu div {
+    background-color: black;
+    text-align: center;
+}
+#menu1{
+    margin-right: auto;
+}
+
+#menu3{
+    margin-left: auto;
+}
+
+.img-menu{
+    padding: 10px 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.burger-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#text1, #text2, #text3{
+    display: none;
+    color: #fff;
+}
+
+.footer-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    width: 100%;
+    background-color: #212832;
+}
+.footer-content > .footer-items{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+.footer-content > .footer-copyright{
+    width: 100%;
+}
+
+.footer-content > .footer-copyright > .text{
+    width: 100%;
+    text-align: center;
+}
+
+.footer-content > .footer-items  > .item{
+    padding: 0 1px;
+}
+
+
